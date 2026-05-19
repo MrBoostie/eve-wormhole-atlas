@@ -1,9 +1,8 @@
-# Fits
+# Fit Library
 
-Add one file per role:
-- scanner-astero.md
-- scanner-covops.md
-- viator-logistics.md
-- roller-battleship.md
-- pve-c3-praxis.md
-- dictor-hole-control.md
+- [Astero Scout/Hunter](astero-scout-hunter.md)
+- [CovOps Scanner Baseline](covops-scanner.md)
+- [Viator Logistics](viator-logistics.md)
+- [Praxis C3 PvE Starter](praxis-c3-starter.md)
+- [Rolling Battleship Baseline](rolling-battleship.md)
+- [Sabre Hole Control](sabre-hole-control.md)
