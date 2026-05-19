@@ -2,7 +2,7 @@
 
 Astero is the preferred early wormhole scout/hunter hull. For this atlas: **Astero > Stratios** until the pilot has a concrete reason to risk more ISK.
 
-```text
+```
 [Astero, WH Scout-Hunter]
 Damage Control II
 Drone Damage Amplifier II

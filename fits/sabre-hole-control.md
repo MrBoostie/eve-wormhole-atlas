@@ -1,6 +1,6 @@
 # Sabre Hole Control
 
-```text
+```
 [Sabre, WH Hole Control]
 Damage Control II
 Nanofiber Internal Structure II

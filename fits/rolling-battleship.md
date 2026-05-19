@@ -1,6 +1,6 @@
 # Rolling Battleship Baseline
 
-```text
+```
 [Armageddon, WH Roller - Higgs]
 Damage Control II
 Reinforced Bulkheads II

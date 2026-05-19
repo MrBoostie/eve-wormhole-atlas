@@ -2,7 +2,7 @@
 
 Accessible C3 Sleeper starter. Validate tank and skills before assuming this lives under pressure.
 
-```text
+```
 [Praxis, C3 Starter Cruise]
 Ballistic Control System II
 Ballistic Control System II

@@ -2,7 +2,7 @@
 
 The atlas logistics doctrine is simple: **Viators like a true chad**. Blockade runners move routine expedition cargo; anything heavier gets explicit scout coverage and a reason.
 
-```text
+```
 [Viator, WH Logistics - True Chad]
 Damage Control II
 Inertial Stabilizers II
