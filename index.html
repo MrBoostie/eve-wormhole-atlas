@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical EVE Online wormhole operations atlas: scouting, mapping, staging, logistics, PvE, hunting, rolling, and survival SOPs.">
+  <title>EVE Wormhole Atlas</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="EVE Wormhole Atlas home"><span class="brand-mark">WH</span><span>EVE Wormhole Atlas</span></a>
+      <div class="nav-links">
+        <a href="#quickstart">Quick start</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#doctrines">Doctrines</a>
+        <a href="#staging">Staging</a>
+        <a href="#library">Library</a>
+        <a href="#checklists">Checklists</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-card">
+        <div class="kicker">Small-gang wormhole operations</div>
+        <h1>Map the chain. Control the risk. Extract alive.</h1>
+        <p class="lede">A clean field handbook for running mobile wormhole expeditions in EVE Online: scouting discipline, bookmark standards, role plans, logistics, rolling, C3 income windows, and hunter posture without pretending J-space forgives sloppy habits.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#quickstart">Start an expedition</a>
+          <a class="button" href="#checklists">Open daily checklist</a>
+          <a class="button" href="https://github.com/MrBoostie/eve-wormhole-atlas">View repository</a>
+        </div>
+      </div>
+      <aside class="status-board panel" aria-label="Atlas summary">
+        <div class="stat"><strong>72h</strong><span>starter expedition plan</span></div>
+        <div class="stat"><strong>6 / 8 / 12</strong><span>character role scaling</span></div>
+        <div class="stat"><strong>Viator-first</strong><span>logistics doctrine</span></div>
+        <div class="stat"><strong>Astero-first</strong><span>scout and hunter baseline</span></div>
+        <div class="pill-row">
+          <span class="pill">C2/C3 staging</span><span class="pill">Pickets</span><span class="pill">Rolling</span><span class="pill">PvE windows</span><span class="pill">Extraction drills</span>
+        </div>
+      </aside>
+    </section>
+
+    <section id="quickstart">
+      <div class="section-head">
+        <div><h2>Quick start</h2><p>Use this when you are about to undock, not after the chain has already eaten the scout.</p></div>
+      </div>
+      <div class="grid cols-3">
+        <article class="card">
+          <span class="badge blue">1. Seed</span>
+          <h3>Put eyes inside first</h3>
+          <p>Start with at least two scanning characters inside the candidate system. Separate accounts are preferred so one bad disconnect does not turn the operation into expensive archaeology.</p>
+        </article>
+        <article class="card">
+          <span class="badge purple">2. Map</span>
+          <h3>Build the chain before moving cargo</h3>
+          <p>Bookmark both sides of every connection, log hole life and mass, update Pathfinder/Tripwire, and identify hostile activity before the Viator leaves station.</p>
+        </article>
+        <article class="card">
+          <span class="badge">3. Operate</span>
+          <h3>Run controlled windows</h3>
+          <p>PvE only with pickets, fresh d-scan cadence, salvage discipline, and a pre-written abort call. The objective is repeatable extraction, not heroic wreck generation.</p>
+        </article>
+      </div>
+      <div class="callout danger" style="margin-top:1rem">
+        <strong>Hard rule:</strong> no blind logistics, no PvE without pickets, no expensive hull movement through an unscouted chain, and no pretending a quiet d-scan means safe.
+      </div>
+    </section>
+
+    <section id="workflow">
+      <div class="section-head">
+        <div><h2>Operating workflow</h2><p>The daily loop: scout, classify, decide, execute, clean up, and leave a way home.</p></div>
+      </div>
+      <div class="timeline">
+        <article class="card"><h3>Anchor the map</h3><p>Confirm home, statics, current exits, signatures, hostile structures, and known active locals. Every new sig is investigated or treated as hostile access.</p></article>
+        <article class="card"><h3>Bookmark like a professional</h3><p>Bookmark the actual wormhole object, not just the probe result. Record both sides, mass state, life state, destination class/security, and time observed.</p></article>
+        <article class="card"><h3>Assign eyes</h3><p>Put cloaked pickets on active statics and high-value connections. If a picket is bored, that is not a failure state. That is the job working.</p></article>
+        <article class="card"><h3>Choose the window</h3><p>Only run PvE, gas, hauling, or rolling when the chain is understood and the exit plan is current. If the chain changes, pause and rescan.</p></article>
+        <article class="card"><h3>Extract and reset</h3><p>Salvage after combat pressure is understood, move loot in split loads, safe-log critical alts, and leave the next session with a usable map.</p></article>
+      </div>
+    </section>
+
+    <section id="doctrines">
+      <div class="section-head">
+        <div><h2>Doctrine cards</h2><p>Fast references for the repo’s operating bias: mobile first, information first, logistics second, structures later.</p></div>
+      </div>
+      <div class="grid cols-2">
+        <article class="card" data-filter-card data-tags="scout astero hunter scanning">
+          <span class="badge blue">Scout / hunter</span>
+          <h3>Astero-first early doctrine</h3>
+          <ul><li>Excellent early flexibility for scanning, hacking, tackle, and opportunistic hunting.</li><li>Carry Sisters probes, cloak, analyzers, scram, and drones.</li><li>Escalate to CovOps/Stratios/T3C only after the basics are boringly reliable.</li></ul>
+          <p style="margin-top:.8rem"><a href="fits/astero-scout-hunter.md">Astero baseline fit</a></p>
+        </article>
+        <article class="card" data-filter-card data-tags="logistics viator hauling transport">
+          <span class="badge purple">Logistics</span>
+          <h3>Viator-first movement</h3>
+          <ul><li>Scout every transition before the hauler commits.</li><li>Use instadock, instaundock, perches, and split cargo runs.</li><li>Abort on chain churn, camp reports, bad hole state, or missing eyes.</li></ul>
+          <p style="margin-top:.8rem"><a href="ops/viator-logistics.md">Viator SOP</a></p>
+        </article>
+        <article class="card" data-filter-card data-tags="pve c3 praxis salvage isk">
+          <span class="badge">Income</span>
+          <h3>C3 sites with controlled salvage</h3>
+          <ul><li>Run sites only after the chain is mapped and pickets are placed.</li><li>Keep salvage windows short; blue loot is not yours until it is out.</li><li>Pre-align, maintain d-scan rhythm, and define the warp-out call before damage starts.</li></ul>
+        </article>
+        <article class="card" data-filter-card data-tags="rolling hole control mass battleship">
+          <span class="badge red">Hole control</span>
+          <h3>Rolling is a procedure, not a vibe</h3>
+          <ul><li>Track mass estimates, polarization timers, and rescue options.</li><li>Use scouts on both sides and do not roll away the only scanner.</li><li>Critical holes are useful tools and excellent ways to strand idiots.</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="staging">
+      <div class="section-head">
+        <div><h2>Staging decision table</h2><p>Pick the system for the job you actually want, not the fantasy killboard you invented at 02:00.</p></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Target</th><th>Why choose it</th><th>Watch-outs</th><th>Best for</th></tr></thead>
+          <tbody>
+            <tr><td>C2 with HS/C3</td><td>Reliable logistics plus access to C3 income.</td><td>High traffic, hunters, less privacy.</td><td>Starter expeditions, learning discipline, hauling practice.</td></tr>
+            <tr><td>C2 with LS/C3</td><td>Better hunting posture and still workable C3 access.</td><td>Logistics are rougher; lowsec exits attract violence.</td><td>Small groups comfortable with scouts and blockade runners.</td></tr>
+            <tr><td>C3 static</td><td>Simple income plan and direct site running identity.</td><td>Can become predictable; poor logistics if exits are bad.</td><td>ISK-focused windows with strict pickets.</td></tr>
+            <tr><td>C4 chain</td><td>More isolation, deeper chains, richer operational play.</td><td>Harder logistics and recovery; more punishing mistakes.</td><td>Groups with proven mapping, rolling, and rescue discipline.</td></tr>
+            <tr><td>No structure / mobile</td><td>Low commitment and low eviction profile.</td><td>Limited storage, more extraction pressure.</td><td>Few-days-to-weeks expeditions and learning deployments.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="library">
+      <div class="section-head">
+        <div><h2>Operational library</h2><p>Search or filter the core documents and references in this atlas.</p></div>
+      </div>
+      <div class="filterbar">
+        <input data-filter-input type="search" placeholder="Search library: scout, Viator, C3, rolling, checklist…" aria-label="Search library">
+        <button class="button primary" type="button" data-filter-value="all">All</button>
+        <button class="button" type="button" data-filter-value="scout">Scout</button>
+        <button class="button" type="button" data-filter-value="logistics">Logistics</button>
+        <button class="button" type="button" data-filter-value="ops">Ops</button>
+      </div>
+      <div class="grid cols-3">
+        <article class="card" data-filter-card data-tags="ops expedition starter 72h"><h3><a href="docs/starter-expedition.md">Starter Expedition</a></h3><p>Tier 1 to Tier 2 objectives, initial staging, and 72-hour operating plan.</p></article>
+        <article class="card" data-filter-card data-tags="ops roles accounts matrix"><h3><a href="ops/role-matrix.md">Role Matrix</a></h3><p>Character assignments for 6, 8, and 12 character groups.</p></article>
+        <article class="card" data-filter-card data-tags="ops checklist daily sop"><h3><a href="ops/daily-sop.md">Daily SOP</a></h3><p>Daily chain, picket, PvE, salvage, and extraction routine.</p></article>
+        <article class="card" data-filter-card data-tags="logistics viator hauling"><h3><a href="ops/viator-logistics.md">Viator Logistics</a></h3><p>Scout-first hauling pattern, abort criteria, and route discipline.</p></article>
+        <article class="card" data-filter-card data-tags="scout astero hunter fit"><h3><a href="fits/astero-scout-hunter.md">Astero Scout/Hunter</a></h3><p>Baseline Astero fit for early scanning, hacking, tackle, and drones.</p></article>
+        <article class="card" data-filter-card data-tags="scout covops scanner fit"><h3><a href="fits/covops-scanner.md">CovOps Scanner</a></h3><p>Simple covert scanning baseline for dedicated chain maintenance.</p></article>
+        <article class="card" data-filter-card data-tags="logistics multibuy market"><h3><a href="multibuy/README.md">Multibuy Lists</a></h3><p>Copy-paste market packs for starter expeditions and Viator logistics.</p></article>
+        <article class="card" data-filter-card data-tags="ops checklist"><h3><a href="ops/DAILY_CHECKLIST.md">Short Checklist</a></h3><p>Minimal operational checklist for fast session starts.</p></article>
+        <article class="card" data-filter-card data-tags="ops plan roadmap"><h3><a href="docs/PLAN.md">Build Plan</a></h3><p>Planned atlas expansion: decision trees, rolling checklists, and doctrine depth.</p></article>
+      </div>
+    </section>
+
+    <section id="checklists">
+      <div class="section-head">
+        <div><h2>Field checklists</h2><p>Copy these into fleet MOTD, Discord pins, or whatever shrine you use to delay disaster.</p></div>
+      </div>
+      <div class="grid cols-2">
+        <article class="card">
+          <h3>Before logistics</h3>
+          <ul class="checklist">
+            <li>Scout confirms every gate and wormhole transition.</li>
+            <li>Both sides of each hole are bookmarked from the object.</li>
+            <li>Hole life and mass are recorded.</li>
+            <li>Hauler has instadock, instaundock, cloak, and safe route notes.</li>
+            <li>Cargo is split so one loss is annoying, not apocalyptic.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Before PvE</h3>
+          <ul class="checklist">
+            <li>Chain is current and mapper is updated.</li>
+            <li>Pickets are placed on active statics and likely entrances.</li>
+            <li>Fleet has an abort word and pre-aligned safe.</li>
+            <li>D-scan cadence is assigned, not assumed.</li>
+            <li>Salvage plan is separate from combat plan.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="callout ok" style="margin-top:1rem">
+        <strong>Success metric:</strong> you can stop mid-operation, explain where every active connection goes, who is watching it, what you will do if a new sig appears, and how the expensive ships get out.
+      </div>
+    </section>
+
+    <section id="mechanics">
+      <div class="section-head">
+        <div><h2>Mechanics worth remembering</h2><p>Small details that prevent large, stupid losses.</p></div>
+      </div>
+      <div class="grid cols-3">
+        <article class="card"><h3>K162 timing</h3><p>The far-side K162 does not always appear immediately. Lack of a new signature is not proof nobody can reach you.</p></article>
+        <article class="card"><h3>Polarization</h3><p>Track direction and time. Panic-bouncing the same wormhole direction inside five minutes is how ships become educational material.</p></article>
+        <article class="card"><h3>Bookmarks</h3><p>Bookmark the object on grid. Probe-result bookmarks can land outside jump range, which is a magnificent way to die at “zero.”</p></article>
+        <article class="card"><h3>No asset safety</h3><p>Wormhole structures do not protect assets like known-space structures. If it dies, the loot becomes a public argument.</p></article>
+        <article class="card"><h3>Data/relic naming</h3><p>Unsecured and Frontier sites are Sleeper combat/hacking sites, not casual pirate relic snacks.</p></article>
+        <article class="card"><h3>System effects</h3><p>Pulsar, Magnetar, Wolf-Rayet, Cataclysmic Variable, Red Giant, and Black Hole effects can rewrite what “good fit” means.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>EVE Wormhole Atlas — practical J-space operations handbook.</span>
+      <span>Unofficial fan project. EVE Online and related marks belong to CCP Games.</span>
+    </div>
+  </footer>
+  <script src="assets/site.js" defer></script>
+</body>
+</html>
