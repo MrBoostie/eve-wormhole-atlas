@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EVE Wormhole Atlas: Viator-first logistics, Astero-first scouts, wormhole fits, copy-paste multibuy lists, SOPs, checklists, and mobile J-space expedition doctrine.">
+  <meta name="description" content="EVE Wormhole Atlas: a function-first wormhole field manual covering Turnur, Thera, statics, rolling, polarization, bookmarks, pickets, fits, multibuy lists, and small-gang J-space SOPs.">
   <title>EVE Wormhole Atlas</title>
   <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -12,96 +12,123 @@
   <div class="app-shell" id="top">
     <aside class="sidebar" aria-label="Table of contents">
       <a class="brand" href="#top"><span class="brand-mark">WH</span><span>EVE Wormhole Atlas</span></a>
-      <p class="sidebar-summary">Viator-first logistics, Astero-first scouting, and practical small-gang wormhole operations.</p>
+      <p class="sidebar-summary">A practical wormhole manual for finding routes, moving ships, surviving polarization, and not donating your Viator to the first patient camper.</p>
       <nav class="toc">
-        <a href="#quickstart">Quick start</a>
-        <a href="#doctrine">Doctrine</a>
-        <a href="#shipyard">Shipyard matrix</a>
+        <a href="#quickstart">Command deck</a>
+        <a href="#live-routes">Live routes</a>
+        <a href="#mechanics">Mechanics</a>
+        <a href="#decision-tree">Decision tree</a>
+        <a href="#operations">Operations</a>
+        <a href="#shipyard">Shipyard</a>
         <a href="#fits">Fits</a>
-        <a href="#multibuy">Multibuy lists</a>
-        <a href="#ops">Daily SOP</a>
-        <a href="#library">Source files</a>
+        <a href="#multibuy">Multibuy</a>
+        <a href="#glossary">Glossary</a>
+        <a href="#library">Library</a>
       </nav>
       <div class="sidebar-actions">
-        <a class="button primary" href="#fits">Copy fits</a>
-        <a class="button" href="#multibuy">Copy multibuy</a>
+        <a class="button primary" href="https://www.eve-scout.com/" rel="noopener" target="_blank">EVE-Scout</a>
+        <a class="button" href="https://tripwiremap.app/" rel="noopener" target="_blank">Tripwire</a>
         <a class="button" href="https://github.com/MrBoostie/eve-wormhole-atlas">GitHub</a>
       </div>
       <div class="doctrine-card compact">
-        <strong>Current bias</strong>
-        <span>Viator for hauling. Astero before Stratios. Stale maps stop the op.</span>
+        <strong>Field law</strong>
+        <span>New signature means new threat until resolved. Stale map means stop the op. Bookmark the object, not your optimism.</span>
       </div>
     </aside>
 
     <main id="main" class="content">
       <section class="hero compact-hero" id="quickstart">
         <p class="eyebrow">Mobile J-space field guide</p>
-        <h1>Wormhole operations without the decorative bullshit.</h1>
-        <p class="lede">A clean, copy-ready atlas for temporary wormhole living: what to fly, what to buy, how to move, and when to stop before the chain turns into a killmail printer.</p>
+        <h1>Wormholes, without the ceremonial self-immolation.</h1>
+        <p class="lede">A clean, navigation-first atlas for small-gang wormhole use: Turnur/Thera routing, scouting discipline, rolling, polarization, pickets, fits, shopping lists, and abort calls.</p>
         <div class="key-grid" aria-label="Doctrine summary">
-          <div><strong>Primary hauler</strong><span>Viator blockade runner</span></div>
-          <div><strong>Primary scout</strong><span>Astero &gt; Stratios for early work</span></div>
-          <div><strong>Planning horizon</strong><span>48–72 hour mobile expedition</span></div>
-          <div><strong>Abort trigger</strong><span>New sig, stale map, lost eyes</span></div>
+          <div><strong>First action</strong><span>Scan every signature and bookmark both sides</span></div>
+          <div><strong>Primary hauler</strong><span>Viator, split loads, scout both sides</span></div>
+          <div><strong>Primary scout</strong><span>Astero or CovOps before expensive vanity</span></div>
+          <div><strong>Abort trigger</strong><span>New sig, hostile probes, stale map, lost picket</span></div>
+        </div>
+        <div class="quick-panel">
+          <article><h2>Absolute beginner loop</h2><ol><li>Probe cosmic signatures until the wormhole is 100%.</li><li>Warp to the wormhole and bookmark the actual wormhole object.</li><li>Jump through, hold cloak, bookmark the return hole immediately.</li><li>D-scan, check system info, identify class/effect/statics.</li><li>If anything feels wrong, leave while you still know where the door is.</li></ol></article>
+          <article><h2>Do not learn these by dying</h2><ul><li>There is no local intel in J-space unless someone talks.</li><li>Wormholes expire by time and by total mass.</li><li>Polarization blocks repeated same-direction jumps for five minutes.</li><li>A K162 is the far side of a connection and often means someone else opened access.</li><li>W-space structures have no asset safety. The loot fairy gets custody.</li></ul></article>
         </div>
       </section>
 
-      <section id="doctrine" class="section-block">
+      <section id="live-routes" class="section-block">
         <div class="section-head">
-          <p class="eyebrow">Start here</p>
-          <h2>Operating doctrine</h2>
-          <p>This is written for small crews living out of the chain temporarily or semi-mobile. It prioritizes survivability, repeatability, and fast decision-making over expensive hero fits.</p>
+          <p class="eyebrow">Route hubs</p>
+          <h2>Thera and Turnur are public wormhole highways</h2>
+          <p>They are not normal home holes. They are well-known route hubs with public scouting, public bookmarks, and public hunters. Use them for logistics and roaming; do not confuse convenience with safety.</p>
         </div>
-        <div class="dense-list four">
-          <article><span class="step">1</span><h3>Map before motion</h3><p>Resolve all signatures, bookmark actual wormhole objects, log destination, life, mass, and time before moving value.</p></article>
-          <article><span class="step">2</span><h3>Haul with Viators</h3><p>Use blockade runners for routine logistics. Split expensive cargo and require eyes on both sides of the hole.</p></article>
-          <article><span class="step">3</span><h3>Run controlled windows</h3><p>PvE, gas, salvage, and hauling happen only with pickets, current scans, and a shared abort call.</p></article>
-          <article><span class="step danger">4</span><h3>Extract deliberately</h3><p>Keep exit bookmarks, probes, recovery ISK, and safe-log options ready before the chain deteriorates.</p></article>
+        <div class="route-grid">
+          <article class="route-card"><span class="tag">Thera</span><h3>Large shattered wormhole hub</h3><p>Thera connects widely across New Eden and J-space. It is the famous wormhole subway station: excellent for shortcuts, staging, and sudden bad ideas from strangers.</p><a href="https://www.eve-scout.com/" rel="noopener" target="_blank">Check current Thera exits</a></article>
+          <article class="route-card"><span class="tag">Turnur</span><h3>Lowsec hub with mapped connections</h3><p>Turnur is known-space lowsec with EVE-Scout mapped hub connections. Treat it like a knife-filled transit terminal: useful, campable, and never truly quiet.</p><a href="https://www.eve-scout.com/" rel="noopener" target="_blank">Check current Turnur exits</a></article>
+          <article class="route-card"><span class="tag">Bookmarks</span><h3>Public folder caveat</h3><p>EVE-Scout’s website is the most current source. In-game public bookmarks are vetted and can lag: new website sigs may not be in-folder yet; old folder marks may remain after expiry.</p><a href="https://wiki.signalcartel.space/Public:EvE-Scout_Thera_and_Turnur_Shared_Bookmarks" rel="noopener" target="_blank">Bookmark folder notes</a></article>
         </div>
-        <div class="rule-box"><strong>Hard rule:</strong> if the map is stale, the operation pauses. If a new signature appears, treat it as hostile access until resolved.</div>
+      </section>
+
+      <section id="mechanics" class="section-block">
+        <div class="section-head with-tools">
+          <div><p class="eyebrow">Mechanics cheat sheet</p><h2>The rules that actually kill people</h2><p>Wormhole survival is mostly bookkeeping under stress. The spreadsheet has teeth.</p></div>
+          <div class="filterbar"><label for="mechanic-filter">Filter mechanics</label><input id="mechanic-filter" data-filter-input placeholder="Search: polarization, K162, rolling, mass, relic..."><div class="filter-buttons"><button class="button primary" data-filter-value="all">All</button><button class="button" data-filter-value="travel">Travel</button><button class="button" data-filter-value="threat">Threat</button><button class="button" data-filter-value="pve">PvE</button><button class="button" data-filter-value="logistics">Logistics</button></div></div>
+        </div>
+        <div class="mechanics-grid">
+          <article data-filter-card data-tags="travel threat polarization"><h3>Polarization</h3><p>You cannot jump the same wormhole in the same direction twice within five minutes. Jump A→B, then B→A three minutes later, and A→B stays blocked until the first timer ends. Weapon timers do not stop wormhole jumps; polarization does.</p></article>
+          <article data-filter-card data-tags="travel logistics bookmarks"><h3>Bookmark the object</h3><p>Bookmark the wormhole itself on-grid, not merely the probe result. Probe-result bookmarks can land outside jump range, which is hilarious only to the person waiting to tackle you.</p></article>
+          <article data-filter-card data-tags="travel threat k162"><h3>K162 means exit side</h3><p>K162 is the generic far-side signature. It tells you less than an originating code and often means another system has a door into you. A fresh K162 in home is not ambience; it is a security event.</p></article>
+          <article data-filter-card data-tags="travel logistics mass rolling"><h3>Mass stages</h3><p>Wormholes have total mass and per-jump mass limits. Info text indicates fresh, reduced, or critical mass, but never exact remaining kilograms. Rolling is controlled violence with uncertainty baked in.</p></article>
+          <article data-filter-card data-tags="travel time logistics"><h3>Life stages</h3><p>Most holes live 16 or 24 hours. End-of-life text means less than four hours remains. If your route home is EOL, move like an adult or prepare to scan your way out.</p></article>
+          <article data-filter-card data-tags="threat travel k162"><h3>K162 reveal behavior</h3><p>The far-side K162 may not be visible immediately. A chain can look quiet until someone jumps or the connection ages into visibility. “No new sigs” is not proof nobody can arrive.</p></article>
+          <article data-filter-card data-tags="pve threat relic data"><h3>Sleeper relic/data traps</h3><p>In wormholes, relic/data names like Unsecured or Frontier are Sleeper combat sites with hacking, not harmless pirate relic candy. If it does not name a pirate faction, expect combat.</p></article>
+          <article data-filter-card data-tags="threat logistics structures"><h3>No asset safety</h3><p>Destroyed wormhole structures drop assets in space rather than sending them safely to stations. Logged-off piloted ships can safe-log, which is why emergency asset plans look ugly but practical.</p></article>
+          <article data-filter-card data-tags="pve threat effects"><h3>System effects change doctrines</h3><p>Pulsar, Magnetar, Wolf-Rayet, Cataclysmic Variable, Red Giant, and Black Hole effects alter tanks, damage, reps, missiles, speed, capacitor, bombs, and sigs. Check before copying a fit from elsewhere.</p></article>
+          <article data-filter-card data-tags="travel threat drifter"><h3>Drifter holes are strange</h3><p>Drifter wormhole entrances are deadspaced; warping to them can land you far off the hole. Some k-space sides are guarded. Scout them as special terrain, not normal gates with prettier lighting.</p></article>
+        </div>
+      </section>
+
+      <section id="decision-tree" class="section-block">
+        <div class="section-head"><p class="eyebrow">Go / no-go</p><h2>Fast decision tree</h2><p>When comms get loud, use this. The void does not reward committee process.</p></div>
+        <div class="decision-grid">
+          <article><h3>Can we move logistics?</h3><p><strong>Yes</strong> only if both sides have eyes, hole life is acceptable, mass is not critical, no hostile probes/ships are active, and cargo is split. Otherwise stage, wait, or reroute through Thera/Turnur.</p></article>
+          <article><h3>Can we run PvE?</h3><p><strong>Yes</strong> only with current signatures, pickets on active holes, combat probes watched, escape bookmarks prepared, and a salvage plan. New sig equals pause until resolved.</p></article>
+          <article><h3>Should we roll?</h3><p><strong>Yes</strong> when the connection is dangerous, stale, or strategically useless and you have mass math, polarization tracking, rescue probes, and HIC/roller contingency. No timers, no roll.</p></article>
+          <article><h3>Are we trapped?</h3><p><strong>Not yet</strong> if any pilot has probes, safe spots, patience, and enough ISK outside. Scan chains outward, use EVE-Scout Rescue if truly stranded, and stop making the situation louder.</p></article>
+        </div>
+      </section>
+
+      <section id="operations" class="section-block">
+        <div class="section-head"><p class="eyebrow">Daily operating procedure</p><h2>Run the chain like a system, not a vibes experiment</h2><p>These are intentionally boring. Boring means repeatable. Repeatable means fewer lossmails with “lol” in local afterwards.</p></div>
+        <div class="ops-grid">
+          <article><h3>Opening scan</h3><ol><li>Compare all bookmarks against current signatures.</li><li>Resolve every new signature before value moves.</li><li>Record type, destination, life, mass, jump limit, and timestamp.</li><li>Identify K162s and likely activity before declaring the chain usable.</li></ol></article>
+          <article><h3>Bookmark naming</h3><ol><li>Use direction: <code>HOME → C3 123</code>.</li><li>Add life/mass: <code>FRESH</code>, <code>EOL</code>, <code>CRIT</code>, destination, and time checked.</li><li>Keep naming consistent so tired humans can parse it.</li><li>Keep tactical perches off-hole, not just zero bookmarks.</li></ol></article>
+          <article><h3>Picket discipline</h3><ol><li>Put eyes on active statics and key k-space exits.</li><li>Report jumps, probes, bubbles, and combat ships.</li><li>Stay cloaked and boring unless ordered otherwise.</li><li>If picket contact is lost, pause the op.</li></ol></article>
+          <article><h3>Extraction</h3><ol><li>Move irreplaceable cargo first.</li><li>Keep probes on multiple characters.</li><li>Do not leave the only scanner outside the hole.</li><li>Close with a final signature diff and bookmark cleanup.</li></ol></article>
+        </div>
       </section>
 
       <section id="shipyard" class="section-block">
-        <div class="section-head">
-          <p class="eyebrow">Decision support</p>
-          <h2>Shipyard matrix</h2>
-          <p>Fast answers for what to undock and what job it performs. Stratios remains optional, not a personality.</p>
-        </div>
+        <div class="section-head"><p class="eyebrow">Shipyard matrix</p><h2>What to undock for the job</h2><p>Doctrines here favor small crews, low drama replacement, and learning without becoming content by accident.</p></div>
         <div class="table-wrap"><table>
           <thead><tr><th>Role</th><th>Preferred hull</th><th>Why it exists</th><th>Upgrade path</th><th>Do not use when</th></tr></thead>
           <tbody>
             <tr><td>Scout / hack / light hunter</td><td><strong>Astero</strong></td><td>Covert cloak, probe bonus, drones, tackle, and low replacement pain. Better early value than Stratios.</td><td>CovOps for pure scanning; T3C once pilot skill and budget justify it.</td><td>You need bubble immunity, nullification, or serious combat staying power.</td></tr>
+            <tr><td>Pure scanner</td><td><strong>CovOps frigate</strong></td><td>Cheap, fast, excellent scanning strength, and less tempting to brawl badly.</td><td>Virtue pod, expanded probe launcher, interdiction-nullified T3C.</td><td>You intend to fight or bait without support.</td></tr>
             <tr><td>Logistics</td><td><strong>Viator</strong></td><td>Blockade runner cloak, fast align, and enough cargo for staged living without turning every trip into a eulogy.</td><td>DST only for specific heavy moves with full scout coverage.</td><td>You lack eyes on both sides, the chain changed, or cargo is not split.</td></tr>
-            <tr><td>C3 starter PvE</td><td>Praxis</td><td>Accessible, flexible, insurance-friendly platform for learning Sleeper wave discipline.</td><td>Rattlesnake or marauder only after escalation discipline is boring.</td><td>Hostiles are active, statics are unguarded, or pilot skills are thin.</td></tr>
-            <tr><td>Rolling</td><td>Armageddon / Megathron</td><td>Cheap mass control using Higgs rigs, prop timing, and polarization tracking.</td><td>Dedicated rolling pairs and HIC support.</td><td>The crew cannot track polarization timers.</td></tr>
-            <tr><td>Hole control</td><td>Sabre</td><td>Bubble control, fast response, cheap enough to lose while learning.</td><td>HIC, Lachesis/Arazu, or heavier response doctrine.</td><td>You cannot keep it supplied with probes, bubbles, and bookmarks.</td></tr>
+            <tr><td>C3 starter PvE</td><td><strong>Praxis</strong></td><td>Accessible, flexible, insurance-friendly platform for learning Sleeper wave discipline.</td><td>Rattlesnake or marauder only after escalation discipline is boring.</td><td>Hostiles are active, statics are unguarded, or pilot skills are thin.</td></tr>
+            <tr><td>Rolling</td><td><strong>Higgs battleship</strong></td><td>Cheap mass control using Higgs rigs, prop timing, and polarization tracking.</td><td>Dedicated rolling pairs and HIC support.</td><td>The crew cannot track mass and polarization timers.</td></tr>
+            <tr><td>Hole control</td><td><strong>Sabre</strong></td><td>Bubble control, fast response, cheap enough to lose while learning.</td><td>HIC, Lachesis/Arazu, or heavier response doctrine.</td><td>You cannot keep it supplied with probes, bubbles, and bookmarks.</td></tr>
           </tbody>
         </table></div>
       </section>
 
       <section id="fits" class="section-block">
-        <div class="section-head with-tools">
-          <div>
-            <p class="eyebrow">Copy-paste fittings</p>
-            <h2>Fits</h2>
-            <p>Paste these directly into EVE fitting tools. Use the search and role filters instead of hunting through giant tiles like some cursed hangar UI.</p>
-          </div>
-          <div class="filterbar" aria-label="Fit filters">
-            <input data-filter-input type="search" placeholder="Search fits, modules, roles..." aria-label="Search fits and multibuy lists">
-            <div class="filter-buttons">
-              <button class="button primary" type="button" data-filter-value="all">All</button>
-              <button class="button" type="button" data-filter-value="scout">Scout</button>
-              <button class="button" type="button" data-filter-value="logistics">Logistics</button>
-              <button class="button" type="button" data-filter-value="pve">PvE</button>
-              <button class="button" type="button" data-filter-value="control">Control</button>
-              <button class="button" type="button" data-filter-value="rolling">Rolling</button>
-            </div>
-          </div>
-        </div>
+        <div class="section-head"><p class="eyebrow">Copy-ready fits</p><h2>Baseline hangar</h2><p>Use the filter, copy the fit, then adapt for skills and local effects. If the system effect breaks the fit, that is not the fit being mysterious. That is you not reading space.</p></div>
         <div class="copy-stack">
-          <article class="copy-row" data-filter-card data-tags="scout astero hunter relic data">
-            <div class="copy-meta"><h3>Astero Scout / Hunter</h3><p>Default explorer, chain scout, and opportunistic tackle hull.</p><a href="fits/astero-scout-hunter.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-astero">Copy fit</button><pre id="fit-astero">[Astero, WH Scout Hunter]
+          <article class="copy-row" data-filter-card data-tags="scout hunter astero"><div class="copy-meta"><h3>Astero scout / hunter</h3><p>Exploration, tackle, and first-contact scouting.</p><a href="fits/astero-scout-hunter.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-astero">Copy fit</button><pre id="fit-astero"># Astero Scout/Hunter
+
+Astero is the preferred early wormhole scout/hunter hull. For this atlas: **Astero &gt; Stratios** until the pilot has a concrete reason to risk more ISK.
+
+```text
+[Astero, WH Scout-Hunter]
 Damage Control II
 Drone Damage Amplifier II
 Nanofiber Internal Structure II
@@ -124,11 +151,38 @@ Hornet EC-300 x5
 Warrior II x5
 
 Sisters Core Scanner Probe x16
-Nanite Repair Paste x50</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="logistics viator blockade runner hauling">
-            <div class="copy-meta"><h3>Viator Logistics</h3><p>Primary wormhole hauler. The chad option, apparently, and also just correct.</p><a href="fits/viator-logistics.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-viator">Copy fit</button><pre id="fit-viator">[Viator, WH Logistics]
+Nanite Repair Paste x50
+```
+
+## Use
+
+- Scan chain, hack pirate relic/data sites, tackle soft targets, and provide eyes.
+- Do not brawl serious combat ships. You are a knife, not a brick.
+- Bookmark the actual wormhole object from grid, not the probe result.</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="scout covops scanning"><div class="copy-meta"><h3>CovOps scanner</h3><p>Pure mapping tool for chain work.</p><a href="fits/covops-scanner.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-covops">Copy fit</button><pre id="fit-covops"># CovOps Scanner Baseline
+
+```
+[Anathema, Scanner Baseline]
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
+
+5MN Quad LiF Restrained Microwarpdrive
+Scan Rangefinding Array I
+Relic Analyzer II
+Data Analyzer II
+
+Covert Ops Cloaking Device II
+Sisters Core Probe Launcher
+
+Small Gravity Capacitor Upgrade I
+Small Gravity Capacitor Upgrade I
+```</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="logistics viator hauling"><div class="copy-meta"><h3>Viator logistics</h3><p>Blockade runner doctrine for routine movement.</p><a href="fits/viator-logistics.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-viator">Copy fit</button><pre id="fit-viator"># Viator Logistics
+
+The atlas logistics doctrine is simple: **Viators like a true chad**. Blockade runners move routine expedition cargo; anything heavier gets explicit scout coverage and a reason.
+
+```text
+[Viator, WH Logistics - True Chad]
 Damage Control II
 Inertial Stabilizers II
 Inertial Stabilizers II
@@ -149,11 +203,21 @@ Core Scanner Probe I x16
 Mobile Depot x1
 Mobile Tractor Unit x1
 Secure Container x4
-Nanite Repair Paste x100</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="pve praxis c3 sleeper starter">
-            <div class="copy-meta"><h3>Praxis C3 Starter</h3><p>Starter Sleeper platform for controlled windows. Cheap enough to teach humility.</p><a href="fits/praxis-c3-starter.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-praxis">Copy fit</button><pre id="fit-praxis">[Praxis, C3 Starter Cruise]
+Nanite Repair Paste x100
+```
+
+## Rules
+
+- No blind hauling.
+- Split expensive loads.
+- Scout both sides before each jump.
+- If the chain changes, stop and remap.</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="pve praxis c3"><div class="copy-meta"><h3>Praxis C3 starter</h3><p>Starter Sleeper site platform.</p><a href="fits/praxis-c3-starter.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-praxis">Copy fit</button><pre id="fit-praxis"># Praxis C3 Starter
+
+Accessible C3 Sleeper starter. Validate tank and skills before assuming this lives under pressure.
+
+```text
+[Praxis, C3 Starter Cruise]
 Ballistic Control System II
 Ballistic Control System II
 Ballistic Control System II
@@ -168,7 +232,7 @@ Multispectrum Shield Hardener II
 Multispectrum Shield Hardener II
 EM Shield Hardener II
 Cap Recharger II
-Large Micro Jump Drive
+Large Micro Jump Drive I
 
 Cruise Missile Launcher II
 Cruise Missile Launcher II
@@ -182,18 +246,18 @@ Large Capacitor Control Circuit I
 Large Capacitor Control Circuit I
 Large Capacitor Control Circuit I
 
+Hornet EC-300 x5
 Hobgoblin II x5
 Hammerhead II x5
-Hornet EC-300 x5
 
 Inferno Fury Cruise Missile x3000
 Mjolnir Fury Cruise Missile x3000
-Scourge Fury Cruise Missile x3000</pre></div>
-          </article>
+Scourge Fury Cruise Missile x3000
+```</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="rolling battleship higgs"><div class="copy-meta"><h3>Rolling battleship</h3><p>Mass-control baseline.</p><a href="fits/rolling-battleship.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-rolling">Copy fit</button><pre id="fit-rolling"># Rolling Battleship Baseline
 
-          <article class="copy-row" data-filter-card data-tags="rolling battleship higgs hole mass control">
-            <div class="copy-meta"><h3>Armageddon Cheap Roller</h3><p>Disposable mass-control battleship for rolling discipline and polarization practice.</p><a href="fits/rolling-battleship.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-rolling">Copy fit</button><pre id="fit-rolling">[Armageddon, WH Roller - Higgs]
+```text
+[Armageddon, WH Roller - Higgs]
 Damage Control II
 Reinforced Bulkheads II
 Reinforced Bulkheads II
@@ -218,35 +282,17 @@ Large Higgs Anchor I
 Large Trimark Armor Pump I
 Large Trimark Armor Pump I
 
-Navy Cap Booster 800 x12</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="scout covops scanner probes cheap">
-            <div class="copy-meta"><h3>Anathema Cheap Scanner</h3><p>Pure scanner backup when you need eyes, probes, and lower replacement cost than an Astero.</p><a href="fits/covops-scanner.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-covops">Copy fit</button><pre id="fit-covops">[Anathema, WH CovOps Scanner]
-Nanofiber Internal Structure II
-Nanofiber Internal Structure II
-Inertial Stabilizers II
+Navy Cap Booster 800 x12
+```
 
-5MN Quad LiF Restrained Microwarpdrive
-Scan Rangefinding Array I
-Scan Pinpointing Array I
-Scan Acquisition Array I
+Track polarization by direction and timestamp. A roller that cannot count to five minutes is a killmail with fittings.</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="control sabre bubbles"><div class="copy-meta"><h3>Sabre hole control</h3><p>Dictor and bubble control.</p><a href="fits/sabre-hole-control.md">Full notes</a></div><div class="copy-code"><button class="copy" data-copy-target="fit-sabre">Copy fit</button><pre id="fit-sabre"># Sabre Hole Control
 
-Covert Ops Cloaking Device II
-Sisters Core Probe Launcher
-Salvager I
-
-Small Gravity Capacitor Upgrade I
-Small Gravity Capacitor Upgrade I
-
-Sisters Core Scanner Probe x16
-Core Scanner Probe I x16</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="control sabre dictor bubbles hole control">
-            <div class="copy-meta"><h3>Sabre Hole Control</h3><p>Bubble control and fast response for entrances, exits, and bad ideas arriving on grid.</p><a href="fits/sabre-hole-control.md">Fit notes</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="fit-sabre">Copy fit</button><pre id="fit-sabre">[Sabre, WH Hole Control]
+```text
+[Sabre, WH Hole Control]
 Damage Control II
 Nanofiber Internal Structure II
+Micro Auxiliary Power Core I
 
 5MN Quad LiF Restrained Microwarpdrive
 Medium Shield Extender II
@@ -259,43 +305,46 @@ Interdiction Sphere Launcher I
 200mm AutoCannon II
 200mm AutoCannon II
 200mm AutoCannon II
+200mm AutoCannon II
 Prototype Cloaking Device I
 
 Small Core Defense Field Extender I
 Small Core Defense Field Extender I
 
-Warp Disrupt Probe x50
-Republic Fleet EMP S x1000
-Republic Fleet Fusion S x1000
-Nanite Repair Paste x50</pre></div>
-          </article>
+Republic Fleet EMP S x2000
+Republic Fleet Fusion S x2000
+Warp Disrupt Probe x40
+Nanite Repair Paste x50
+```</pre></div></article>
         </div>
       </section>
 
       <section id="multibuy" class="section-block">
-        <div class="section-head">
-          <p class="eyebrow">Shopping lists</p>
-          <h2>Copy-paste multibuy</h2>
-          <p>Exact lists for staging a small expedition. Paste into EVE multibuy, verify regional prices, then split hauling loads like someone who wants to keep playing tomorrow.</p>
-        </div>
+        <div class="section-head"><p class="eyebrow">Shopping lists</p><h2>Copy-paste multibuy</h2><p>Exact lists for staging a small expedition. Paste into EVE multibuy, verify regional prices, then split hauling loads like someone who wants to keep playing tomorrow.</p></div>
         <div class="copy-stack compact-list">
-          <article class="copy-row" data-filter-card data-tags="scout logistics starter expedition">
-            <div class="copy-meta"><h3>Starter Expedition Pack</h3><p>Baseline scan, haul, depot, and support supplies.</p><a href="multibuy/starter-expedition-pack.txt">Raw text file</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="buy-starter">Copy list</button><pre id="buy-starter">Astero 2
-Viator 1
-Covert Ops Cloaking Device II 3
+          <article class="copy-row" data-filter-card data-tags="scout logistics starter expedition"><div class="copy-meta"><h3>Starter Expedition Pack</h3><p>Baseline scan, haul, depot, and support supplies.</p><a href="multibuy/starter-expedition-pack.txt">Raw text file</a></div><div class="copy-code"><button class="copy" data-copy-target="buy-starter">Copy list</button><pre id="buy-starter">Astero 2
+Covert Ops Cloaking Device II 2
 Sisters Core Probe Launcher 2
-Core Probe Launcher I 1
 Sisters Core Scanner Probe 32
-Core Scanner Probe I 16
-5MN Quad LiF Restrained Microwarpdrive 2
-50MN Quad LiF Restrained Microwarpdrive 1
 Relic Analyzer II 2
 Data Analyzer II 2
+5MN Quad LiF Restrained Microwarpdrive 2
 Warp Scrambler II 2
-Damage Control II 3
+Damage Control II 2
 Drone Damage Amplifier II 2
 Nanofiber Internal Structure II 4
+Small Gravity Capacitor Upgrade I 2
+Small Emission Scope Sharpener I 2
+Small Memetic Algorithm Bank I 2
+Hobgoblin II 10
+Warrior II 10
+Hornet EC-300 10
+Viator 1
+50MN Quad LiF Restrained Microwarpdrive 1
+Medium Shield Extender II 1
+Multispectrum Shield Hardener II 1
+EM Shield Amplifier II 1
+Expanded Cargohold II 1
 Inertial Stabilizers II 2
 Medium Cargohold Optimization II 1
 Medium Low Friction Nozzle Joints II 1
@@ -303,11 +352,8 @@ Mobile Depot 2
 Mobile Tractor Unit 1
 Mobile Small Warp Disruptor I 4
 Secure Container 8
-Nanite Repair Paste 500</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="logistics viator hauling">
-            <div class="copy-meta"><h3>Viator Logistics Pack</h3><p>Two fitted Viators plus probes and field spares.</p><a href="multibuy/viator-pack.txt">Raw text file</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="buy-viator">Copy list</button><pre id="buy-viator">Viator 2
+Nanite Repair Paste 500</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="logistics viator hauling"><div class="copy-meta"><h3>Viator Logistics Pack</h3><p>Two fitted Viators plus probes and field spares.</p><a href="multibuy/viator-pack.txt">Raw text file</a></div><div class="copy-code"><button class="copy" data-copy-target="buy-viator">Copy list</button><pre id="buy-viator">Viator 2
 Covert Ops Cloaking Device II 2
 Core Probe Launcher I 2
 Core Scanner Probe I 32
@@ -326,11 +372,8 @@ Secure Container 12
 Nanite Repair Paste 1000
 Improved Cloaking Device II 1
 Expanded Probe Launcher I 1
-Sisters Combat Scanner Probe 16</pre></div>
-          </article>
-          <article class="copy-row" data-filter-card data-tags="pve praxis c3">
-            <div class="copy-meta"><h3>C3 Praxis Pack</h3><p>Starter Sleeper battleship and consumables.</p><a href="multibuy/c3-praxis-pack.txt">Raw text file</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="buy-praxis">Copy list</button><pre id="buy-praxis">Praxis 1
+Sisters Combat Scanner Probe 16</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="pve praxis c3"><div class="copy-meta"><h3>C3 Praxis Pack</h3><p>Starter Sleeper battleship and consumables.</p><a href="multibuy/c3-praxis-pack.txt">Raw text file</a></div><div class="copy-code"><button class="copy" data-copy-target="buy-praxis">Copy list</button><pre id="buy-praxis">Praxis 1
 Cruise Missile Launcher II 6
 Drone Link Augmentor I 1
 X-Large Shield Booster II 1
@@ -338,7 +381,7 @@ Shield Boost Amplifier II 1
 Multispectrum Shield Hardener II 2
 EM Shield Hardener II 1
 Cap Recharger II 1
-Large Micro Jump Drive 1
+Large Micro Jump Drive I 1
 Ballistic Control System II 3
 Damage Control II 1
 Capacitor Flux Coil II 2
@@ -351,12 +394,8 @@ Inferno Fury Cruise Missile 3000
 Mjolnir Fury Cruise Missile 3000
 Scourge Fury Cruise Missile 3000
 Mobile Tractor Unit 1
-Mobile Depot 1</pre></div>
-          </article>
-
-          <article class="copy-row" data-filter-card data-tags="control sabre bubbles">
-            <div class="copy-meta"><h3>Hole Control Pack</h3><p>Sabres, bubbles, and the supplies needed to make entrances annoying.</p><a href="multibuy/hole-control-pack.txt">Raw text file</a></div>
-            <div class="copy-code"><button class="copy" data-copy-target="buy-control">Copy list</button><pre id="buy-control">Sabre 2
+Mobile Depot 1</pre></div></article>
+          <article class="copy-row" data-filter-card data-tags="control sabre bubbles"><div class="copy-meta"><h3>Hole Control Pack</h3><p>Sabres, bubbles, and supplies for making entrances miserable.</p><a href="multibuy/hole-control-pack.txt">Raw text file</a></div><div class="copy-code"><button class="copy" data-copy-target="buy-control">Copy list</button><pre id="buy-control">Sabre 2
 Interdiction Sphere Launcher I 2
 Warp Disrupt Probe 100
 200mm AutoCannon II 12
@@ -372,47 +411,41 @@ Republic Fleet EMP S 4000
 Republic Fleet Fusion S 4000
 Mobile Small Warp Disruptor I 10
 Mobile Medium Warp Disruptor I 4
-Nanite Repair Paste 500</pre></div>
-          </article>
+Nanite Repair Paste 500</pre></div></article>
         </div>
       </section>
 
-      <section id="ops" class="section-block">
-        <div class="section-head">
-          <p class="eyebrow">Operational details</p>
-          <h2>Daily field SOP</h2>
-          <p>Run this in order. Short, boring, survivable. The void charges extra for improvisation.</p>
+      <section id="glossary" class="section-block">
+        <div class="section-head"><p class="eyebrow">Comms glossary</p><h2>Words people will yell while you are already stressed</h2><p>Short definitions for common wormhole calls.</p></div>
+        <div class="glossary-grid">
+          <article><h3>Picket</h3><p>A scout parked to watch a hole, structure, or route. The picket reports jumps, probes, hostile ships, bubbles, and other traffic. Boring job. Vital job.</p></article>
+          <article><h3>Static</h3><p>A recurring connection type in a wormhole system. When it dies, another of the same type respawns somewhere else in that system.</p></article>
+          <article><h3>Roll / rolling</h3><p>Intentionally collapsing a wormhole by pushing mass through it, usually to remove a hostile route or fish for a better static.</p></article>
+          <article><h3>Crit</h3><p>Critically mass-reduced. The hole has less than about 10% mass remaining. It may strand you. Respect it.</p></article>
+          <article><h3>EOL</h3><p>End of life. Less than four hours before natural collapse. Fine for scouts, questionable for hauling, cursed for complacency.</p></article>
+          <article><h3>Chain</h3><p>The currently mapped sequence of connected systems. Chains rot constantly; timestamps matter.</p></article>
+          <article><h3>Rage roll</h3><p>Repeatedly rolling statics to find content. Expensive, effective, and a beautiful way to discover who can count.</p></article>
+          <article><h3>Seed</h3><p>A cloaked/scanning character or asset placed in a system for future access, intel, or eviction prep.</p></article>
         </div>
-        <div class="ops-grid">
-          <article><h3>Opening scan</h3><ol><li>Check all bookmarks against current signatures.</li><li>Resolve every new sig before value moves.</li><li>Record wormhole type, destination, life, mass, and timestamp.</li><li>Identify K162s and active traffic before declaring anything safe.</li></ol></article>
-          <article><h3>Movement discipline</h3><ol><li>Scout both sides before each Viator trip.</li><li>Split expensive loads into multiple trips.</li><li>Use cloak-MWD correctly and do not autopilot through hope.</li><li>Pause hauling when the map changes.</li></ol></article>
-          <article><h3>PvE window</h3><ol><li>Pickets on active statics and high-value connections.</li><li>Combat ships aligned or near escape bookmarks.</li><li>Salvage after combat pressure is understood.</li><li>Abort on new sig, hostile probes, unknown ships, or lost picket contact.</li></ol></article>
-          <article><h3>Extraction</h3><ol><li>Stage exit bookmarks and safe logs.</li><li>Keep probes on independent characters.</li><li>Move irreplaceable cargo first, not last.</li><li>Leave enough ISK outside the hole to recover.</li></ol></article>
-        </div>
-        <div class="rule-box ok"><strong>Polarization reminder:</strong> weapon timers do not stop wormhole jumps, but polarization does. Track direction and timestamps like your hull depends on it, because yes, astonishingly, it does.</div>
       </section>
 
       <section id="library" class="section-block">
-        <div class="section-head">
-          <p class="eyebrow">Repository library</p>
-          <h2>Source files</h2>
-          <p>Direct links for markdown docs and raw text lists.</p>
-        </div>
+        <div class="section-head"><p class="eyebrow">Repository library</p><h2>Source files and outside references</h2><p>Direct links for markdown docs, raw text lists, and authoritative route/mechanics references.</p></div>
         <div class="link-table">
           <a href="fits/astero-scout-hunter.md"><strong>Astero fit notes</strong><span>Scout / hunter baseline</span></a>
           <a href="fits/viator-logistics.md"><strong>Viator logistics</strong><span>Blockade runner hauling doctrine</span></a>
           <a href="fits/praxis-c3-starter.md"><strong>Praxis C3 starter</strong><span>Starter Sleeper PvE baseline</span></a>
           <a href="fits/sabre-hole-control.md"><strong>Sabre hole control</strong><span>Dictor and bubble notes</span></a>
-          <a href="multibuy/starter-expedition-pack.txt"><strong>Starter multibuy</strong><span>Raw EVE multibuy list</span></a>
-          <a href="multibuy/viator-pack.txt"><strong>Viator multibuy</strong><span>Raw Viator shopping pack</span></a>
-          <a href="multibuy/c3-praxis-pack.txt"><strong>C3 Praxis multibuy</strong><span>Raw PvE pack</span></a>
-          <a href="multibuy/hole-control-pack.txt"><strong>Hole control multibuy</strong><span>Raw Sabre and bubble pack</span></a>
           <a href="ops/daily-sop.md"><strong>Daily SOP</strong><span>Opening, running, extraction</span></a>
           <a href="ops/role-matrix.md"><strong>Role matrix</strong><span>Crew responsibilities</span></a>
+          <a href="https://wiki.eveuniversity.org/Wormholes" rel="noopener"><strong>EVE University Wormholes</strong><span>Mechanics reference</span></a>
+          <a href="https://www.eve-scout.com/" rel="noopener"><strong>EVE-Scout routes</strong><span>Thera and Turnur connections</span></a>
+          <a href="https://wiki.signalcartel.space/Public:EvE-Scout_Thera_and_Turnur_Shared_Bookmarks" rel="noopener"><strong>Signal Cartel bookmarks</strong><span>Public bookmark folder details</span></a>
+          <a href="https://tripwiremap.app/" rel="noopener"><strong>Tripwire</strong><span>Chain mapping tool</span></a>
         </div>
       </section>
 
-      <footer class="site-footer"><span>EVE Wormhole Atlas · practical J-space work</span><span>Function first. Eye candy on probation.</span></footer>
+      <footer class="site-footer"><span>EVE Wormhole Atlas · practical J-space work</span><span>Function first. Eye candy remains on probation.</span></footer>
     </main>
   </div>
   <script src="assets/site.js"></script>
