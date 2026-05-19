@@ -1,0 +1,17 @@
+Sabre 2
+Interdiction Sphere Launcher I 2
+Warp Disrupt Probe 100
+200mm AutoCannon II 12
+Prototype Cloaking Device I 2
+5MN Quad LiF Restrained Microwarpdrive 2
+Medium Shield Extender II 4
+Warp Disruptor II 2
+Damage Control II 2
+Nanofiber Internal Structure II 2
+Micro Auxiliary Power Core I 2
+Small Core Defense Field Extender I 4
+Republic Fleet EMP S 4000
+Republic Fleet Fusion S 4000
+Mobile Small Warp Disruptor I 10
+Mobile Medium Warp Disruptor I 4
+Nanite Repair Paste 500

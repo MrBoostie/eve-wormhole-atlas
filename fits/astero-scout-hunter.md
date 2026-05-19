@@ -1,13 +1,15 @@
-# Astero Scout/Hunter (Baseline)
+# Astero Scout/Hunter
 
-``` 
-[Astero, Scout Hunter Baseline]
+Astero is the preferred early wormhole scout/hunter hull. For this atlas: **Astero > Stratios** until the pilot has a concrete reason to risk more ISK.
+
+```text
+[Astero, WH Scout-Hunter]
 Damage Control II
-Small Ancillary Armor Repairer
-Multispectrum Energized Membrane II
 Drone Damage Amplifier II
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
 
-5MN Y-T8 Compact Microwarpdrive
+5MN Quad LiF Restrained Microwarpdrive
 Warp Scrambler II
 Relic Analyzer II
 Data Analyzer II
@@ -16,10 +18,19 @@ Covert Ops Cloaking Device II
 Sisters Core Probe Launcher
 
 Small Gravity Capacitor Upgrade I
-Small Gravity Capacitor Upgrade I
-Small Polycarbon Engine Housing I
+Small Emission Scope Sharpener I
+Small Memetic Algorithm Bank I
 
 Hobgoblin II x5
+Hornet EC-300 x5
 Warrior II x5
+
 Sisters Core Scanner Probe x16
+Nanite Repair Paste x50
 ```
+
+## Use
+
+- Scan chain, hack pirate relic/data sites, tackle soft targets, and provide eyes.
+- Do not brawl serious combat ships. You are a knife, not a brick.
+- Bookmark the actual wormhole object from grid, not the probe result.

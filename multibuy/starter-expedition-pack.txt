@@ -1,14 +1,31 @@
-Astero
-Anathema
-Viator
-Praxis
-Sabre
-Sisters Core Probe Launcher
-Sisters Core Scanner Probe
-Covert Ops Cloaking Device II
-Mobile Depot
-Mobile Tractor Unit
-Nanite Repair Paste
-Core Scanner Probe I
-Data Analyzer II
-Relic Analyzer II
+Astero 2
+Covert Ops Cloaking Device II 2
+Sisters Core Probe Launcher 2
+Sisters Core Scanner Probe 32
+Relic Analyzer II 2
+Data Analyzer II 2
+5MN Quad LiF Restrained Microwarpdrive 2
+Warp Scrambler II 2
+Damage Control II 2
+Drone Damage Amplifier II 2
+Nanofiber Internal Structure II 4
+Small Gravity Capacitor Upgrade I 2
+Small Emission Scope Sharpener I 2
+Small Memetic Algorithm Bank I 2
+Hobgoblin II 10
+Warrior II 10
+Hornet EC-300 10
+Viator 1
+50MN Quad LiF Restrained Microwarpdrive 1
+Medium Shield Extender II 1
+Multispectrum Shield Hardener II 1
+EM Shield Amplifier II 1
+Expanded Cargohold II 1
+Inertial Stabilizers II 2
+Medium Cargohold Optimization II 1
+Medium Low Friction Nozzle Joints II 1
+Mobile Depot 2
+Mobile Tractor Unit 1
+Mobile Small Warp Disruptor I 4
+Secure Container 8
+Nanite Repair Paste 500

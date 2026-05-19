@@ -5,7 +5,7 @@
 Nanofiber Internal Structure II
 Nanofiber Internal Structure II
 
-5MN Y-T8 Compact Microwarpdrive
+5MN Quad LiF Restrained Microwarpdrive
 Scan Rangefinding Array I
 Relic Analyzer II
 Data Analyzer II

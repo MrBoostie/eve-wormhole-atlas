@@ -1,0 +1,22 @@
+Praxis 1
+Cruise Missile Launcher II 6
+Drone Link Augmentor I 1
+X-Large Shield Booster II 1
+Shield Boost Amplifier II 1
+Multispectrum Shield Hardener II 2
+EM Shield Hardener II 1
+Cap Recharger II 1
+Large Micro Jump Drive I 1
+Ballistic Control System II 3
+Damage Control II 1
+Capacitor Flux Coil II 2
+Co-Processor II 1
+Large Capacitor Control Circuit I 3
+Hobgoblin II 5
+Hammerhead II 5
+Hornet EC-300 5
+Inferno Fury Cruise Missile 3000
+Mjolnir Fury Cruise Missile 3000
+Scourge Fury Cruise Missile 3000
+Mobile Tractor Unit 1
+Mobile Depot 1

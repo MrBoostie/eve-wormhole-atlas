@@ -1,8 +1,20 @@
-Viator
-Covert Ops Cloaking Device II
-5MN Y-T8 Compact Microwarpdrive
-Inertial Stabilizers II
-Nanofiber Internal Structure II
-Warp Core Stabilizer II
-Mobile Depot
-Nanite Repair Paste
+Viator 2
+Covert Ops Cloaking Device II 2
+Core Probe Launcher I 2
+Core Scanner Probe I 32
+50MN Quad LiF Restrained Microwarpdrive 2
+Medium Shield Extender II 2
+Multispectrum Shield Hardener II 2
+EM Shield Amplifier II 2
+Damage Control II 2
+Inertial Stabilizers II 4
+Expanded Cargohold II 2
+Medium Cargohold Optimization II 2
+Medium Low Friction Nozzle Joints II 2
+Mobile Depot 4
+Mobile Tractor Unit 2
+Secure Container 12
+Nanite Repair Paste 1000
+Improved Cloaking Device II 1
+Expanded Probe Launcher I 1
+Sisters Combat Scanner Probe 16

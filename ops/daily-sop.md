@@ -1,9 +1,10 @@
-# Daily SOP
+# Daily Wormhole SOP
 
-1. Verify all exits and bookmark both sides.
-2. Update mapper continuously.
-3. Maintain at least one cloaked eye on active statics.
-4. No PvE without pickets and fresh d-scan rhythm.
-5. Check hole life/mass before every major transit.
-6. Salvage in controlled windows.
-7. End-session extraction and logout plan for key alts.
+1. Check all known bookmarks against current signatures.
+2. Resolve every new signature before moving value.
+3. Bookmark both sides of each wormhole from the object on grid.
+4. Record type, destination, mass state, life state, and observation time.
+5. Place pickets on active statics before PvE, gas, salvage, or logistics.
+6. Move Viator loads only after both sides are scouted.
+7. Abort on new sigs, hostile probes, hostile ships, lost picket contact, or stale map data.
+8. End session with exit bookmarks, probe backups, and critical hulls safe.
